@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4140762015865332735}
   - component: {fileID: 1676014774706786393}
   m_Layer: 0
-  m_Name: Car
+  m_Name: Ice
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
