@@ -31,4 +31,10 @@ public class Penguin : MonoBehaviour
             lastMove = Time.time;
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision){
+        if (collision.gameObject.CompareTag("Obstacle")){
+            FindObjectOfType<GameOverManager>().GameOver();
+        }
+    }
 }
