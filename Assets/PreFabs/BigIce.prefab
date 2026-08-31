@@ -34,7 +34,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2749651320131492401, guid: e18d3f14da77a45429eefa56b8fa0bbc, type: 3}
       propertyPath: m_Name
-      value: IceCreamTruck
+      value: BigIce
       objectReference: {fileID: 0}
     - target: {fileID: 6178016233318875860, guid: e18d3f14da77a45429eefa56b8fa0bbc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -119,5 +119,25 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2749651320131492401, guid: e18d3f14da77a45429eefa56b8fa0bbc, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 3518100828915352258}
   m_SourcePrefab: {fileID: 100100000, guid: e18d3f14da77a45429eefa56b8fa0bbc, type: 3}
+--- !u!1 &796443674956805783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2749651320131492401, guid: e18d3f14da77a45429eefa56b8fa0bbc, type: 3}
+  m_PrefabInstance: {fileID: 3253059098676505766}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3518100828915352258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796443674956805783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185a68a1d9fee22459cd9938282d3306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IceController

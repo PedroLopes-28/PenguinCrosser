@@ -23,15 +23,30 @@ public class IceSpawner : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating("SpawnIce", 0, 1);
+        InvokeRepeating("SpawnIce", 0, 0.5f);
+        InvokeRepeating("SpawnOrca", 0, 2);
     }
 
     void SpawnIce()
     {
-        int randomC = Random.Range(0, icePrefabs.Count);
-        Instantiate( icePrefabs[randomC],SpawnP[randomC].transform.position, Quaternion.identity);
+        
+        Instantiate( icePrefabs[0],SpawnP[0].transform.position, Quaternion.identity);
+        Instantiate( icePrefabs[0],SpawnP[1].transform.position, Quaternion.identity);
+        Instantiate( icePrefabs[0],SpawnP[2].transform.position, Quaternion.identity);
         
     }
+    
+    void SpawnOrca()
+    {
+        
+        
+        Instantiate( icePrefabs[1],SpawnP[3].transform.position, Quaternion.identity);
+        Instantiate( icePrefabs[1],SpawnP[4].transform.position, Quaternion.identity);
+        
+    }
+    
+    
+    
 
     // Update is called once per frame
     void Update()
