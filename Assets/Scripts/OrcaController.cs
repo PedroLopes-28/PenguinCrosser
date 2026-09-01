@@ -5,7 +5,7 @@ public class OrcaController : MonoBehaviour
     private Rigidbody2D _rb;
     private SpriteRenderer _sprite;
 
-    [SerializeField] private float speed = 1.5f;
+   private float speed = 1.5f;
 
     private void Awake()
     {

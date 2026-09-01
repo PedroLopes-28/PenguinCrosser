@@ -5,7 +5,7 @@ public class IceController : MonoBehaviour
     private Rigidbody2D _rb;
     private SpriteRenderer _sprite;
 
-    [SerializeField] private float speed = 2.5f;
+  private float speed = 2.5f;
 
     private void Awake()
     {
