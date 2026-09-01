@@ -23,8 +23,8 @@ public class IceSpawner : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating("SpawnIce", 0, 0.5f);
-        InvokeRepeating("SpawnOrca", 0, 2);
+        InvokeRepeating("SpawnIce", 0, 2.5f);
+        InvokeRepeating("SpawnOrca", 0, 4);
     }
 
     void SpawnIce()

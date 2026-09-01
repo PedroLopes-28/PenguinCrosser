@@ -36,5 +36,10 @@ public class Penguin : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacle")){
             FindObjectOfType<GameOverManager>().GameOver();
         }
+
+        else if(collision.gameObject.CompareTag("Winner")){
+            FindObjectOfType<WinManager>().Win();
+
+        }
     }
 }
